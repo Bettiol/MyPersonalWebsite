@@ -1,12 +1,12 @@
-/**
+/*
  * @Author: Luca Bettiol
- * @Date:   2020-07-02T13:58:39+02:00
+ * @Date:   2020-07-02T14:11:00+02:00
  * @Email:  luca.bettiol.92@gmail.com
  * @Filename: style.css
  * @Last modified by:   Luca Bettiol
- * @Last modified time: 2020-07-02T14:02:49+02:00
+ * @Last modified time: 2020-07-02T15:55:02+02:00
  * @Copyright: Copyright (c) 2020 by Bettiol Luca. All Rights Reserved.
-*/
+ */
 
 *{
   margin: 0;
@@ -39,10 +39,11 @@
 }
 
 .logo{
-  width: 44px;
-  height: 32px;
-  background-image: url(../images/white-logo.png);
+  width: 50px;
+  height: 50px;
+  background-image: url(../images/logo.png);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .menu-toggler{
@@ -83,7 +84,7 @@
 }
 
 .sticky .logo{
-  background-image: url(../images/black-logo.png);
+  background-image: url(../images/logo.png);
 }
 
 .sticky .navbar-menu a{
@@ -97,7 +98,7 @@
 #home{
   height: 100vh;
   min-height: 500px;
-  background: url(../images/bg.jpg) no-repeat center;
+  background: url(../images/bg.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -122,14 +123,14 @@
 
 #home .content h1::after{
   content: "Luca Bettiol";
-  animation: textanim 10s linear infinite;
+  animation: textanim 8s linear infinite;
 }
 
 @keyframes textanim{
-  25%{
-    content: "A Student";
+  33%{
+    content: "A IT Student";
   }
-  50%{
+  66%{
     content: "A Developer";
   }
 }
