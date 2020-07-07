@@ -1,10 +1,7 @@
 /*
- * @Author: Luca Bettiol
- * @Date:   2020-07-02T14:11:00+02:00
+ * @Author: Bettiol
  * @Email:  luca.bettiol.92@gmail.com
  * @Filename: scripts.js
- * @Last modified by:   Luca Bettiol
- * @Last modified time: 2020-07-02T14:33:59+02:00
  * @Copyright: Copyright (c) 2020 by Bettiol Luca. All Rights Reserved.
  */
 
